@@ -33,20 +33,6 @@ h6 {
     font-weight: 900;
 }
 
-/*黄色背景文字*/
-.yellow {
-    background: #ffff4a;
-}
-
-/*绿色背景文字*/
-.green {
-    background: #00ff00;
-}
-
-/*蓝色背景文字*/
-.blue {
-    background: #00ffff;
-}
 /*右边距 内*/
 .paddingR {
     padding-right: 50%;
@@ -129,7 +115,7 @@ h6 {
 
 /*--------------------------------分页-------------------------*/
 .paging {
-    margin-bottom: 700px;
+    margin-bottom: 120px;
 }
 
 /*第二篇大div设置*/
