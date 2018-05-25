@@ -1,10 +1,13 @@
 body {
     margin: 0;
     padding: 0;
-    font-size: 12px;
+    font-size: 7.5pt;
     font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
 }
 
+.table, .table tr th, table tr td {
+    font-size: 7.5pt;
+}
 /*文字居中*/
 .text-center {
     text-align: center;
@@ -20,7 +23,7 @@ h6 {
     margin: 1.2em !important;
     font-weight: 900 !important;
     margin-left: 8px !important;
-    font-size: 13px;
+    font-size: 7pt;
 }
 
 /*无下边距标题*/
@@ -76,7 +79,7 @@ h6 {
 
 /*行高*/
 .table tr {
-    line-height: 14px;
+    line-height: 10px;
 }
 
 .table-half tr td {
