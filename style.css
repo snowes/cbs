@@ -4,12 +4,15 @@ body {
     font-size: 5pt;
     font-family: "Verdana", "Verdana Regular";
 }
+
 .font {
     font-family: "Verdana", "Verdana Regular";
 }
+
 .font-B {
     font-weight: 600 !important;
 }
+
 thead {
     display: table-header-group !important;
 }
@@ -33,10 +36,12 @@ tr {
 .table tr td {
     font-size: 5pt;
 }
+
 .font-italic {
     font-style: italic;
     margin-left: 9px;
 }
+
 /*行高*/
 .table tr {
     line-height: 8px;
@@ -78,13 +83,15 @@ tr {
 }
 
 /*无下边距 内*/
-.none-paddingB-th tr th  {
+.none-paddingB-th tr th {
     padding-bottom: 0 !important;
 }
+
 /*上边距边距 内*/
 .paddingT-th tr th {
     padding-top: 10px !important;
 }
+
 /*无边距 外*/
 .none-margin {
     margin: 0 !important;
@@ -128,6 +135,7 @@ tr {
     float: left;
     margin-bottom: 10px;
 }
+
 .marginT-H {
     height: 32px;
 }
@@ -145,6 +153,7 @@ h6 {
     font-weight: 700;
     margin: 1.2em 8px 2px 4px !important;
 }
+
 .h6-marginB {
     margin-bottom: 0.6em !important;
 }
@@ -171,7 +180,6 @@ p {
 .Aline div:nth-child(1) {
     width: 160px;
 }
-
 
 /*表格*/
 .table {
@@ -229,6 +237,9 @@ p {
 .Bureau-table {
     width: 80%;
     margin-left: 10%;
+    border-bottom: 1px solid;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
 
 .Bureau-table td {
@@ -236,11 +247,9 @@ p {
     border-bottom: none;
     padding-left: 4px;
 }
+
 .no-border-right {
     border-right: none !important;
-}
-.border-bottom {
-    border-bottom: 1px solid !important;
 }
 
 /*-------------------Subject----------------------*/
@@ -249,6 +258,7 @@ p {
     font-weight: 600;
     padding-bottom: 2px;
 }
+
 .Subject-title {
     font-weight: 600;
     padding-left: 6px;
@@ -259,9 +269,11 @@ p {
     width: 95%;
     margin-left: 5%;
 }
+
 .Subject-marginB {
     margin-bottom: 2px;
 }
+
 .Subject-left, .Subject-right {
     float: left;
     width: 20%;
@@ -278,12 +290,14 @@ p {
     right: 20px;
     margin-top: -67px;
 }
+
 .position-right-down {
     position: absolute;
     width: 160px;
     right: 20px;
     margin-top: -38px;
 }
+
 .cycle-table {
     float: left;
     width: 180px;
@@ -291,11 +305,13 @@ p {
     margin-top: 2px;
 
 }
-.cycle-table-title{
+
+.cycle-table-title {
     position: absolute;
     left: 6px;
     padding-top: 88px;
 }
+
 .max-width-th {
     width: 50% !important;
 }
