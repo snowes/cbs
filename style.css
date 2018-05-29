@@ -225,3 +225,69 @@ p {
     width: 14%;
 }
 
+/*-------------------Bureau---------------------*/
+.Bureau-table {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.Bureau-table td {
+    border: 1px solid;
+    border-bottom: none;
+    padding-left: 4px;
+}
+.no-border-right {
+    border-right: none !important;
+}
+.border-bottom {
+    border-bottom: 1px solid !important;
+}
+
+/*-------------------Subject----------------------*/
+.Subject-content {
+    margin-left: 5px !important;
+    font-weight: 600;
+    padding-bottom: 2px;
+}
+.Subject-title {
+    font-weight: 600;
+    padding-left: 6px;
+}
+
+.Subject-content-box {
+    float: left;
+    width: 95%;
+    margin-left: 5%;
+}
+.Subject-marginB {
+    margin-bottom: 2px;
+}
+.Subject-left, .Subject-right {
+    float: left;
+    width: 20%;
+}
+
+.Subject-right {
+    width: 80% !important;
+}
+
+/*-------------------Personal Details----------------------*/
+.position-right-up {
+    position: absolute;
+    width: 160px;
+    right: 20px;
+    margin-top: -67px;
+}
+.position-right-down {
+    position: absolute;
+    width: 160px;
+    right: 20px;
+    margin-top: -38px;
+}
+.cycle-table {
+    width: 300px;
+    border: 1px solid red;
+}
+.cycle-table-title{
+
+}
