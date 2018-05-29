@@ -285,9 +285,17 @@ p {
     margin-top: -38px;
 }
 .cycle-table {
-    width: 300px;
-    border: 1px solid red;
+    float: left;
+    width: 180px;
+    margin-left: 70px;
+    margin-top: 2px;
+
 }
 .cycle-table-title{
-
+    position: absolute;
+    left: 6px;
+    padding-top: 88px;
+}
+.max-width-th {
+    width: 50% !important;
 }
